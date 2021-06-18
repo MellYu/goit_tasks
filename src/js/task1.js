@@ -24,5 +24,5 @@ class StringBuilder {
   builder
   .append('^')
   .prepend('^')
-  .pad('=');
-  console.log(builder); // '=^.^='
+  .pad('=')
+  console.log(builder.value); // '=^.^='
