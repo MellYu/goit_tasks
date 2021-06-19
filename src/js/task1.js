@@ -5,7 +5,7 @@ class StringBuilder {
     }
 
     append(str) {
-      this.value = this.value + str;
+      this.value += str;
       return this;
     }
   
